@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:layout_margin="10dp"
+    tools:context=".Pertemuan2.MiniChallenge.KasirActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Struk Belanja"
+        android:id="@+id/struk_tv"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_nama_barang"
+        android:hint="Masukkan Nama Barang"
+        android:layout_below="@+id/struk_tv"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_jumlah_barang"
+        android:hint="Masukkan Jumlah Barang"
+        android:layout_below="@+id/et_nama_barang"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_harga_barang"
+        android:hint="Masukkan Harga Barang"
+        android:layout_below="@id/et_jumlah_barang"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="10dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hitung with Custom Layout"
+        android:id="@+id/hitung_belanja_custom_btn"
+        android:layout_below="@id/et_harga_barang"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hitung with Fragment"
+        android:id="@+id/hitung_belanja_fragment_btn"
+        android:layout_below="@id/hitung_belanja_custom_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/result_tv"
+        android:text="hasil"
+        android:layout_below="@id/hitung_belanja_fragment_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentBottom="true"/>
+
+
+</RelativeLayout>

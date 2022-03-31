@@ -38,4 +38,10 @@
         android:text="CUSTOM dialog Fragment"
         android:id="@+id/alert_lima"/>
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mini Challenge"
+        android:id="@+id/mini_challenge_btn"/>
+
 </LinearLayout>

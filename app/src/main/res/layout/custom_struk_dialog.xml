@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/total_belanja_tv"
+        android:text="Total Belanja"
+        android:textSize="15sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_uang_bayar"
+        android:hint="Masukkan Uang yang dibayarkan"
+        android:textSize="15sp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="30dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/uang_bayar_btn"
+        android:text="Bayar"
+        android:layout_marginTop="20dp"/>
+
+
+</LinearLayout>

@@ -1,11 +1,13 @@
 package binar.ganda.chapter4.Pertemuan2.Dialog
 
 import android.content.DialogInterface
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
+import binar.ganda.chapter4.Pertemuan2.MiniChallenge.KasirActivity
 import binar.ganda.chapter4.R
 import kotlinx.android.synthetic.main.activity_alert_dialog.*
 import kotlinx.android.synthetic.main.activity_alert_dialog.view.*
@@ -76,20 +78,12 @@ class AlertDialogActivity : AppCompatActivity() {
         }
 
         alert_lima.setOnClickListener {
-            val view = LayoutInflater.from(this).inflate(R.layout.fragment_alert_dialog,null, false)
-            val customDialog = AlertDialog.Builder(this)
-            customDialog.setView(view)
-            val dialog = customDialog.create()
-
-            view.proses_btn.setOnClickListener {
-                val usia = view.et_usia.text.toString()
-                Toast.makeText(this,"$usia", Toast.LENGTH_LONG).show()
-                dialog.dismiss()
-            }
-            dialog.show()
+            AlertDialogFragment().show(supportFragmentManager, "abc")
         }
 
-
+        mini_challenge_btn.setOnClickListener {
+            startActivity(Intent(this, KasirActivity::class.java))
+        }
 
 
     }

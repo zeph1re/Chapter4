@@ -5,6 +5,7 @@
       <map>
         <entry key="..\:/Kuliah/Semester 6/Chapter4/app/src/main/res/layout/activity_alert_count.xml" value="0.25" />
         <entry key="..\:/Kuliah/Semester 6/Chapter4/app/src/main/res/layout/activity_alert_dialog.xml" value="0.3625" />
+        <entry key="..\:/Kuliah/Semester 6/Chapter4/app/src/main/res/layout/activity_kasir.xml" value="0.25" />
         <entry key="..\:/Kuliah/Semester 6/Chapter4/app/src/main/res/layout/activity_main.xml" value="0.18541666666666667" />
         <entry key="..\:/Kuliah/Semester 6/Chapter4/app/src/main/res/layout/activity_main2.xml" value="0.1" />
         <entry key="..\:/Kuliah/Semester 6/Chapter4/app/src/main/res/layout/activity_nav_component.xml" value="0.28854166666666664" />
@@ -14,8 +15,10 @@
         <entry key="..\:/Kuliah/Semester 6/Chapter4/app/src/main/res/layout/content_nav_component_pertama.xml" value="0.28854166666666664" />
         <entry key="..\:/Kuliah/Semester 6/Chapter4/app/src/main/res/layout/content_toast.xml" value="0.18541666666666667" />
         <entry key="..\:/Kuliah/Semester 6/Chapter4/app/src/main/res/layout/custom_dialog.xml" value="0.33" />
+        <entry key="..\:/Kuliah/Semester 6/Chapter4/app/src/main/res/layout/custom_struk_dialog.xml" value="0.25" />
         <entry key="..\:/Kuliah/Semester 6/Chapter4/app/src/main/res/layout/fragment_alert_dialog.xml" value="0.18541666666666667" />
         <entry key="..\:/Kuliah/Semester 6/Chapter4/app/src/main/res/layout/fragment_first.xml" value="0.28854166666666664" />
+        <entry key="..\:/Kuliah/Semester 6/Chapter4/app/src/main/res/layout/fragment_kasir_dialog.xml" value="0.3625" />
         <entry key="..\:/Kuliah/Semester 6/Chapter4/app/src/main/res/layout/fragment_second.xml" value="0.3625" />
       </map>
     </option>
