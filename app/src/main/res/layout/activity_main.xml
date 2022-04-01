@@ -20,6 +20,13 @@
         android:text="Pertemuan 2"
         android:layout_below="@id/pertemuan_satu_btn"/>
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pertemuan_tiga_btn"
+        android:text="Pertemuan 3"
+        android:layout_below="@id/pertemuan_dua_btn"/>
+
 
 
 </RelativeLayout>

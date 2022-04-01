@@ -10,17 +10,29 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light">
         <activity
+            android:name=".Pertemuan3.Latihan.AdapterAplikasi"
+            android:exported="false" />
+        <activity
+            android:name=".Pertemuan3.Latihan.AplikasiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Pertemuan3.RecyclerView.DataMahasiswa"
+            android:exported="false" />
+        <activity
+            android:name=".Pertemuan3.RecyclerView.AdapterMahasiswa"
+            android:exported="false" />
+        <activity
+            android:name=".Pertemuan3.RecyclerView.RecyclerViewActivity"
+            android:exported="false" />
+        <activity
             android:name=".Pertemuan2.MiniChallenge.KasirActivity"
             android:exported="false" />
         <activity
             android:name=".Pertemuan2.Dialog.AlertCountActivity"
-            android:exported="true">
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".Pertemuan2.Dialog.AlertDialogActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".Pertemuan1.MiniChallenge.NavComponentActivity"
             android:exported="false"
@@ -31,14 +43,10 @@
             android:exported="false" />
         <activity
             android:name=".Pertemuan1.MiniChallenge.MainActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".Pertemuan1.SnackBar.SnackBarActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".Pertemuan1.Toast.ToastActivity"
             android:exported="true" />
