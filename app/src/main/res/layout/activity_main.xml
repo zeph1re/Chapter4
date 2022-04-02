@@ -27,6 +27,13 @@
         android:text="Pertemuan 3"
         android:layout_below="@id/pertemuan_dua_btn"/>
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pertemuan_empat_btn"
+        android:text="Pertemuan 4"
+        android:layout_below="@id/pertemuan_tiga_btn"/>
+
 
 
 </RelativeLayout>

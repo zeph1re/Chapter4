@@ -10,6 +10,25 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light">
         <activity
+            android:name=".Pertemuan4.Tugas.Home"
+            android:exported="false" />
+        <activity
+            android:name=".Pertemuan4.Tugas.Login"
+            android:exported="false"
+            android:label="Login"/>
+        <activity
+            android:name=".Pertemuan4.Tugas.SplashScreen"
+            android:exported="false" />
+        <activity
+            android:name=".Pertemuan4.Latihan.LatihanSF"
+            android:exported="false" />
+        <activity
+            android:name=".Pertemuan4.SharedPreferences.SharedPreferencesDua"
+            android:exported="false" />
+        <activity
+            android:name=".Pertemuan4.SharedPreferences.MainSharedPreferences"
+            android:exported="false" />
+        <activity
             android:name=".Pertemuan3.Latihan.AdapterAplikasi"
             android:exported="false" />
         <activity
